@@ -22,7 +22,6 @@ $http( "settings.json").get()//load json file
   		...
 		}
 	);
-});
 
 var callback = {
   success : function(data){
