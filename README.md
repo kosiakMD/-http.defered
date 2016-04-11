@@ -10,8 +10,9 @@ jQuery and Angular AJAX-methods are slower then clear XHHR, so hthe best short w
 BUT, clear JS Promise is not crossbroswer's, so it was replaced by jQuery.Deferred https://api.jquery.com/category/deferred-object/
 
 for Example:
+
 <code>
-$http( "settings.json").get()//load json file <br>
+$http( "settings.json").get()//load json file
 	.then(
 		function(data){//if data load Good (XHR)
 		  ...
