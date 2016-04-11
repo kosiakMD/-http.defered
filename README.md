@@ -1,4 +1,4 @@
-# -http.promise
+# $http.promise
 
 "dependencies": {
     "jquery": ">1.5"
