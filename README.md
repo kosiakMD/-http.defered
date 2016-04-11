@@ -23,4 +23,31 @@ $http( "settings.json").get()//load json file
 		}
 	);
 });
+
+var callback = {
+  success : function(data){
+     console.log(1, 'success', JSON.parse(data));
+  },
+  error : function(data){
+     console.log(2, 'error', JSON.parse(data));
+  }
+};
+// End B
+
+// Executes the method call 
+$http(mdnAPI) 
+  .get(payload) 
+  .then(callback.success) 
+  .catch(callback.error);
+
+// Executes the method call but an alternative way (1) to handle Promise Reject case 
+$http(mdnAPI) 
+  .get(payload) 
+  .then(callback.success, callback.error);
+
+// Executes the method call but an alternative way (2) to handle Promise Reject case 
+$http(mdnAPI) 
+  .get(payload) 
+  .then(callback.success)
+  .then(undefined, callback.error);
 </code>
