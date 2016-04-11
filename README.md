@@ -1,7 +1,7 @@
 # -http.promise
 
 "dependencies": {
-    "jquery": ">1.5",
+    "jquery": ">1.5"
   }
 
 Mozilla "$http" plugin + jQuery.Deferred (instead original .Promise);
@@ -10,6 +10,7 @@ jQuery and Angular AJAX-methods are slower then clear XHHR, so hthe best short w
 BUT, clear JS Promise is not crossbroswer's, so it was replaced by jQuery.Deferred https://api.jquery.com/category/deferred-object/
 
 for Example:
+
 $http( "settings.json").get()//load json file
 	.then(
 		function(data){//if data load Good (XHR)
