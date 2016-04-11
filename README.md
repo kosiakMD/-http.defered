@@ -6,7 +6,7 @@
 
 Mozilla "$http" plugin + jQuery.Deferred (instead original .Promise);
 
-jQuery and Angular AJAX-methods are slower then clear XHHR, so hthe best short way to use it I found here https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
+jQuery and Angular AJAX-methods are slower then clear XHHR, so hthe best short way to use it I found here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Example_using_new_XMLHttpRequest()
 
 BUT, clear JS Promise is not crossbroswer's, so it was replaced by jQuery.Deferred https://api.jquery.com/category/deferred-object/
 
