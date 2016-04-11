@@ -1,4 +1,4 @@
-# $http.promise
+# $http and Promise (Deffered)
 
 "dependencies": {
     "jquery": ">1.5"
