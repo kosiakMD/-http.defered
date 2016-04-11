@@ -1,7 +1,7 @@
 /*!
 Anton Kosiak,
 kosiakMD@yandex.ua,
-Mozilla "$http" plugin + jQuery.Deferred (instead original .Promise);
+MDN "$http" plugin + jQuery.Deferred (instead original .Promise);
 */
 
 "usestrict"
