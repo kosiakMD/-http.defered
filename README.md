@@ -13,6 +13,7 @@ BUT, clear JS Promise is not crossbroswer's, so it was replaced by jQuery.Deferr
 for Example:
 
 <code>
+```javascript
 $http( "settings.json").get()//load json file
 	.then(
 		function(data){//if data load Good (XHR)
@@ -52,4 +53,6 @@ $http(mdnAPI)
   .get(payload) 
   .then(callback.success)
   .then(undefined, callback.error);
-</code>
+
+
+```</code>
