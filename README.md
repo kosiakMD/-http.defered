@@ -23,6 +23,13 @@ $http( "settings.json").get()//load json file
 		}
 	);
 
+// B-> Here you define its functions and its payload
+var mdnAPI = 'https://developer.mozilla.org/en-US/search.json';
+var payload = {
+  'topic' : 'js',
+  'q'     : 'Promise'
+};
+
 var callback = {
   success : function(data){
      console.log(1, 'success', JSON.parse(data));
