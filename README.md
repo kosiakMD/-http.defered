@@ -1,12 +1,12 @@
-# $http and Promise (Deffered)
+# $http (AJAX) and Promise (Deffered)
 
 "dependencies": {
     "jquery": ">1.5"
   }
 
-Mozilla "$http" plugin + jQuery.Deferred (instead original .Promise);
+Clear JavaScript XMLHttpRequest "$http"-plugin + jQuery.Deferred (instead original Promise);
 
-jQuery and Angular AJAX-methods are slower then clear XHHR, so hthe best short way to use it I found here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Example_using_new_XMLHttpRequest()
+jQuery and Angular AJAX-methods are slower then clear XHHR, so the best short way to use it I found here in MDN https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Example_using_new_XMLHttpRequest()
 
 BUT, clear JS Promise is not crossbroswer's, so it was replaced by jQuery.Deferred https://api.jquery.com/category/deferred-object/
 
