@@ -15,10 +15,10 @@ for Example:
 ```javascript
 $http( "settings.json").get()//load json file
 	.then(
-		function(data){//if data load Good (XHR)
+		function(data){//if loading success
 		  ...
 		},
-		function(data, url){//if data load fail (XHR)
+		function(data, url){//if loading failed
   		...
 		}
 	);
